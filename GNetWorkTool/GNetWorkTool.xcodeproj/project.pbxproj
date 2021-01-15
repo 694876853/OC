@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BD47CA25B185CC00A18E94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD47C925B185CC00A18E94 /* AppDelegate.m */; };
+		01BD47CD25B185CC00A18E94 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD47CC25B185CC00A18E94 /* SceneDelegate.m */; };
+		01BD47D025B185CC00A18E94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD47CF25B185CC00A18E94 /* ViewController.m */; };
+		01BD47D325B185CC00A18E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BD47D125B185CC00A18E94 /* Main.storyboard */; };
+		01BD47D625B185CC00A18E94 /* GNetWorkTool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01BD47D425B185CC00A18E94 /* GNetWorkTool.xcdatamodeld */; };
+		01BD47D825B185D100A18E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BD47D725B185D100A18E94 /* Assets.xcassets */; };
+		01BD47DB25B185D100A18E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BD47D925B185D100A18E94 /* LaunchScreen.storyboard */; };
+		01BD47DE25B185D100A18E94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD47DD25B185D100A18E94 /* main.m */; };
+		01BD47E825B185D100A18E94 /* GNetWorkToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD47E725B185D100A18E94 /* GNetWorkToolTests.m */; };
+		01BD47F325B185D100A18E94 /* GNetWorkToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD47F225B185D100A18E94 /* GNetWorkToolUITests.m */; };
+		01BD480325B1880F00A18E94 /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD480225B1880F00A18E94 /* NetworkHelper.m */; };
+		9272240A744156991F33D063 /* libPods-GNetWorkTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D327247090761F4FA1521FB0 /* libPods-GNetWorkTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01BD47E425B185D100A18E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BD47BD25B185CC00A18E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BD47C425B185CC00A18E94;
+			remoteInfo = GNetWorkTool;
+		};
+		01BD47EF25B185D100A18E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BD47BD25B185CC00A18E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BD47C425B185CC00A18E94;
+			remoteInfo = GNetWorkTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BD47C525B185CC00A18E94 /* GNetWorkTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNetWorkTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BD47C825B185CC00A18E94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01BD47C925B185CC00A18E94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01BD47CB25B185CC00A18E94 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		01BD47CC25B185CC00A18E94 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		01BD47CE25B185CC00A18E94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01BD47CF25B185CC00A18E94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01BD47D225B185CC00A18E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01BD47D525B185CC00A18E94 /* GNetWorkTool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GNetWorkTool.xcdatamodel; sourceTree = "<group>"; };
+		01BD47D725B185D100A18E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01BD47DA25B185D100A18E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01BD47DC25B185D100A18E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BD47DD25B185D100A18E94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BD47E325B185D100A18E94 /* GNetWorkToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNetWorkToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BD47E725B185D100A18E94 /* GNetWorkToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNetWorkToolTests.m; sourceTree = "<group>"; };
+		01BD47E925B185D100A18E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BD47EE25B185D100A18E94 /* GNetWorkToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNetWorkToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BD47F225B185D100A18E94 /* GNetWorkToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNetWorkToolUITests.m; sourceTree = "<group>"; };
+		01BD47F425B185D100A18E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BD480125B1880F00A18E94 /* NetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		01BD480225B1880F00A18E94 /* NetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
+		3BDE71F4AADFD63B98EC7902 /* Pods-GNetWorkTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNetWorkTool.debug.xcconfig"; path = "Target Support Files/Pods-GNetWorkTool/Pods-GNetWorkTool.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C223F00DDF65B2338E7CE0 /* Pods-GNetWorkTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNetWorkTool.release.xcconfig"; path = "Target Support Files/Pods-GNetWorkTool/Pods-GNetWorkTool.release.xcconfig"; sourceTree = "<group>"; };
+		D327247090761F4FA1521FB0 /* libPods-GNetWorkTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GNetWorkTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BD47C225B185CC00A18E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9272240A744156991F33D063 /* libPods-GNetWorkTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BD47E025B185D100A18E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BD47EB25B185D100A18E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BD47BC25B185CC00A18E94 = {
+			isa = PBXGroup;
+			children = (
+				01BD47C725B185CC00A18E94 /* GNetWorkTool */,
+				01BD47E625B185D100A18E94 /* GNetWorkToolTests */,
+				01BD47F125B185D100A18E94 /* GNetWorkToolUITests */,
+				01BD47C625B185CC00A18E94 /* Products */,
+				1FFC25ADDA1A22F98738880E /* Pods */,
+				3D8A98A84492EB84A6899B96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01BD47C625B185CC00A18E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01BD47C525B185CC00A18E94 /* GNetWorkTool.app */,
+				01BD47E325B185D100A18E94 /* GNetWorkToolTests.xctest */,
+				01BD47EE25B185D100A18E94 /* GNetWorkToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01BD47C725B185CC00A18E94 /* GNetWorkTool */ = {
+			isa = PBXGroup;
+			children = (
+				01BD480025B187EE00A18E94 /* Utils */,
+				01BD47C825B185CC00A18E94 /* AppDelegate.h */,
+				01BD47C925B185CC00A18E94 /* AppDelegate.m */,
+				01BD47CB25B185CC00A18E94 /* SceneDelegate.h */,
+				01BD47CC25B185CC00A18E94 /* SceneDelegate.m */,
+				01BD47CE25B185CC00A18E94 /* ViewController.h */,
+				01BD47CF25B185CC00A18E94 /* ViewController.m */,
+				01BD47D125B185CC00A18E94 /* Main.storyboard */,
+				01BD47D725B185D100A18E94 /* Assets.xcassets */,
+				01BD47D925B185D100A18E94 /* LaunchScreen.storyboard */,
+				01BD47DC25B185D100A18E94 /* Info.plist */,
+				01BD47DD25B185D100A18E94 /* main.m */,
+				01BD47D425B185CC00A18E94 /* GNetWorkTool.xcdatamodeld */,
+			);
+			path = GNetWorkTool;
+			sourceTree = "<group>";
+		};
+		01BD47E625B185D100A18E94 /* GNetWorkToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				01BD47E725B185D100A18E94 /* GNetWorkToolTests.m */,
+				01BD47E925B185D100A18E94 /* Info.plist */,
+			);
+			path = GNetWorkToolTests;
+			sourceTree = "<group>";
+		};
+		01BD47F125B185D100A18E94 /* GNetWorkToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01BD47F225B185D100A18E94 /* GNetWorkToolUITests.m */,
+				01BD47F425B185D100A18E94 /* Info.plist */,
+			);
+			path = GNetWorkToolUITests;
+			sourceTree = "<group>";
+		};
+		01BD480025B187EE00A18E94 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01BD480125B1880F00A18E94 /* NetworkHelper.h */,
+				01BD480225B1880F00A18E94 /* NetworkHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1FFC25ADDA1A22F98738880E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BDE71F4AADFD63B98EC7902 /* Pods-GNetWorkTool.debug.xcconfig */,
+				A6C223F00DDF65B2338E7CE0 /* Pods-GNetWorkTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D8A98A84492EB84A6899B96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D327247090761F4FA1521FB0 /* libPods-GNetWorkTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01BD47C425B185CC00A18E94 /* GNetWorkTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BD47F725B185D100A18E94 /* Build configuration list for PBXNativeTarget "GNetWorkTool" */;
+			buildPhases = (
+				68BCCFC6F03437E90C1B6D52 /* [CP] Check Pods Manifest.lock */,
+				01BD47C125B185CC00A18E94 /* Sources */,
+				01BD47C225B185CC00A18E94 /* Frameworks */,
+				01BD47C325B185CC00A18E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GNetWorkTool;
+			productName = GNetWorkTool;
+			productReference = 01BD47C525B185CC00A18E94 /* GNetWorkTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01BD47E225B185D100A18E94 /* GNetWorkToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BD47FA25B185D100A18E94 /* Build configuration list for PBXNativeTarget "GNetWorkToolTests" */;
+			buildPhases = (
+				01BD47DF25B185D100A18E94 /* Sources */,
+				01BD47E025B185D100A18E94 /* Frameworks */,
+				01BD47E125B185D100A18E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BD47E525B185D100A18E94 /* PBXTargetDependency */,
+			);
+			name = GNetWorkToolTests;
+			productName = GNetWorkToolTests;
+			productReference = 01BD47E325B185D100A18E94 /* GNetWorkToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01BD47ED25B185D100A18E94 /* GNetWorkToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BD47FD25B185D100A18E94 /* Build configuration list for PBXNativeTarget "GNetWorkToolUITests" */;
+			buildPhases = (
+				01BD47EA25B185D100A18E94 /* Sources */,
+				01BD47EB25B185D100A18E94 /* Frameworks */,
+				01BD47EC25B185D100A18E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BD47F025B185D100A18E94 /* PBXTargetDependency */,
+			);
+			name = GNetWorkToolUITests;
+			productName = GNetWorkToolUITests;
+			productReference = 01BD47EE25B185D100A18E94 /* GNetWorkToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01BD47BD25B185CC00A18E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Lepard;
+				TargetAttributes = {
+					01BD47C425B185CC00A18E94 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					01BD47E225B185D100A18E94 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 01BD47C425B185CC00A18E94;
+					};
+					01BD47ED25B185D100A18E94 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 01BD47C425B185CC00A18E94;
+					};
+				};
+			};
+			buildConfigurationList = 01BD47C025B185CC00A18E94 /* Build configuration list for PBXProject "GNetWorkTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01BD47BC25B185CC00A18E94;
+			productRefGroup = 01BD47C625B185CC00A18E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01BD47C425B185CC00A18E94 /* GNetWorkTool */,
+				01BD47E225B185D100A18E94 /* GNetWorkToolTests */,
+				01BD47ED25B185D100A18E94 /* GNetWorkToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01BD47C325B185CC00A18E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BD47DB25B185D100A18E94 /* LaunchScreen.storyboard in Resources */,
+				01BD47D825B185D100A18E94 /* Assets.xcassets in Resources */,
+				01BD47D325B185CC00A18E94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BD47E125B185D100A18E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BD47EC25B185D100A18E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68BCCFC6F03437E90C1B6D52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GNetWorkTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BD47C125B185CC00A18E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BD47DE25B185D100A18E94 /* main.m in Sources */,
+				01BD47D625B185CC00A18E94 /* GNetWorkTool.xcdatamodeld in Sources */,
+				01BD480325B1880F00A18E94 /* NetworkHelper.m in Sources */,
+				01BD47D025B185CC00A18E94 /* ViewController.m in Sources */,
+				01BD47CA25B185CC00A18E94 /* AppDelegate.m in Sources */,
+				01BD47CD25B185CC00A18E94 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BD47DF25B185D100A18E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BD47E825B185D100A18E94 /* GNetWorkToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BD47EA25B185D100A18E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BD47F325B185D100A18E94 /* GNetWorkToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BD47E525B185D100A18E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BD47C425B185CC00A18E94 /* GNetWorkTool */;
+			targetProxy = 01BD47E425B185D100A18E94 /* PBXContainerItemProxy */;
+		};
+		01BD47F025B185D100A18E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BD47C425B185CC00A18E94 /* GNetWorkTool */;
+			targetProxy = 01BD47EF25B185D100A18E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01BD47D125B185CC00A18E94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BD47D225B185CC00A18E94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01BD47D925B185D100A18E94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BD47DA25B185D100A18E94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01BD47F525B185D100A18E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01BD47F625B185D100A18E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01BD47F825B185D100A18E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDE71F4AADFD63B98EC7902 /* Pods-GNetWorkTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GNetWorkTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GNetWorkTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01BD47F925B185D100A18E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C223F00DDF65B2338E7CE0 /* Pods-GNetWorkTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GNetWorkTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GNetWorkTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01BD47FB25B185D100A18E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GNetWorkToolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GNetWorkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GNetWorkTool.app/GNetWorkTool";
+			};
+			name = Debug;
+		};
+		01BD47FC25B185D100A18E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GNetWorkToolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GNetWorkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GNetWorkTool.app/GNetWorkTool";
+			};
+			name = Release;
+		};
+		01BD47FE25B185D100A18E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GNetWorkToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GNetWorkToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GNetWorkTool;
+			};
+			name = Debug;
+		};
+		01BD47FF25B185D100A18E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GNetWorkToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GNetWorkToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GNetWorkTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BD47C025B185CC00A18E94 /* Build configuration list for PBXProject "GNetWorkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BD47F525B185D100A18E94 /* Debug */,
+				01BD47F625B185D100A18E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BD47F725B185D100A18E94 /* Build configuration list for PBXNativeTarget "GNetWorkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BD47F825B185D100A18E94 /* Debug */,
+				01BD47F925B185D100A18E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BD47FA25B185D100A18E94 /* Build configuration list for PBXNativeTarget "GNetWorkToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BD47FB25B185D100A18E94 /* Debug */,
+				01BD47FC25B185D100A18E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BD47FD25B185D100A18E94 /* Build configuration list for PBXNativeTarget "GNetWorkToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BD47FE25B185D100A18E94 /* Debug */,
+				01BD47FF25B185D100A18E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01BD47D425B185CC00A18E94 /* GNetWorkTool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01BD47D525B185CC00A18E94 /* GNetWorkTool.xcdatamodel */,
+			);
+			currentVersion = 01BD47D525B185CC00A18E94 /* GNetWorkTool.xcdatamodel */;
+			path = GNetWorkTool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01BD47BD25B185CC00A18E94 /* Project object */;
+}
